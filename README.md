@@ -1,1 +1,1 @@
-# MY-GAME
+This is a pong game I developed to sharpen my Python and object oriented programming skills. I used the Pygame module to develop the game. The player on left is controlled by the user. The player on right is controlled by the computer. At the beginning of the game, user has a chance to select the difficulty of the game. As the difficulty increases the reaction time of the player controlled by the computer increases.
