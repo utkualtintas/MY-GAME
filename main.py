@@ -63,6 +63,8 @@ while game_loop:
 
     while intro:
         screen.fill((0, 0, 255))
+        ball.player1.score_value = 0
+        ball.player2.score_value = 0
         easy_one = pygame.Surface((300, 100))
         easy_one_rectangle = easy_one.get_rect()
         easy_one_rectangle.left = 440
