@@ -19,7 +19,7 @@ class TheBall:
         self.set_player_interventions()
         self.deal_with_scoring()
         self.put_the_goalpost_physics()
-        self.update_player_posiitions()
+        self.update_player_positions()
 
     def put_me_on_the_screen(self, screen):
         screen.blit(self.surface, (self.rectangle.left, self.rectangle.top))
