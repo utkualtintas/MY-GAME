@@ -12,6 +12,7 @@ class TheBall:
     def __init__(self):
         self.create_ball_surface_and_draw_the_ball()
         self.randomize_the_initial_ball_movement()
+        print("hello")
 
     def update(self):
 
